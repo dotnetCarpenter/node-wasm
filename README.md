@@ -2,7 +2,6 @@
 A working example for the new `--experimental-wasm-modules` feature in node.js `v12.3.1`.
 
 ## Features
-- Assemblyscript project for building `.wasm` file
 - Node project using `--experimental-wasm-modules`
 - Usage example
 
@@ -15,3 +14,7 @@ A working example for the new `--experimental-wasm-modules` feature in node.js `
 git clone https://github.com/florisdh/node-wasm.git
 cd node-wasm
 ```
+
+
+
+Inspired by https://github.com/florisdh/node-wasm
