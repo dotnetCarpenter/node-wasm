@@ -1,0 +1,11 @@
+{
+  "name": "wasm",
+  "description": "Initial experimentation with mostly handwritten WebAssembly",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "add/main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd add/ && ./run"
+  }
+}
