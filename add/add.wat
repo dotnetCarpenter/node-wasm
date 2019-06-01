@@ -1,7 +1,8 @@
+;; wat2wasm add.wat -o add.wasm && wasm-validate add.wasm
 (module
-  (type $t0 (func (param i32 i32) (result i32)))
-  (func $add (type $t0) (param $p0 i32) (param $p1 i32) (result i32)
-    get_local $p0
-    get_local $p1
-    i32.add)
+  (func $add (param i32) (param i32) (result i32)
+    (i32.add
+      (get_local 0)
+      (get_local 1))
+  )
   (export "add" (func $add)))
