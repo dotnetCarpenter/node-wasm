@@ -9,7 +9,7 @@ List of changed WAT instructions: https://github.com/WebAssembly/spec/issues/884
 
 ## Usage
 ### Prerequisite
-- Install node.js 12+ on your machine. Get it [here](https://nodejs.org/).
+- Install node.js 12.3.1+ on your machine. Get it [here](https://nodejs.org/).
 - `wat2wasm`. Debian: `sudo apt install wabt`
 - Gnu Make (or execute `wat2wasm` and `node` manually)
 
