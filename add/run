@@ -1,7 +1,0 @@
-#!/usr/bin/env sh
-
-# compile
-wat2wasm add.wat -o add.wasm && wasm-validate add.wasm
-
-#run
-node --experimental-modules --experimental-wasm-modules main.js
